@@ -11,9 +11,7 @@ void setup() {
   // set up the LCD's number of columns and rows:
   lcd.begin(16, 2);
   lcd.setCursor(2,1);
-  lcd.print("Smart");
-  lcd.print(" ");
-  lcd.print("Eagle");
+  lcd.print(String("Smart Eagle"));
 }
 
 void loop() {
